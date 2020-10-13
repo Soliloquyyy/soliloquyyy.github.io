@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://soliloquyyy.github.io/Personal-Website/",
+  "homepage": "https://soliloquyyy.github.io/Personal-Website",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "react": "^16.12.0",
