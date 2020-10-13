@@ -4,7 +4,8 @@ import './App.css';
 import TopBar from './topBar/topBar.js'
 
 //import react router
-import { Switch, Route, __RouterContext } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
+import{ __RouterContext } from 'react-router';
 //import pages
 import {
     Home,
