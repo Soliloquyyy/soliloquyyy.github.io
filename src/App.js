@@ -4,8 +4,8 @@ import './App.css';
 import TopBar from './topBar/topBar.js'
 
 //import react router
-import { Switch, Route } from 'react-router-dom';
-import{ __RouterContext } from 'react-router';
+import { Switch, Route, useLocation } from 'react-router-dom';
+
 //import pages
 import {
     Home,
@@ -33,7 +33,9 @@ import { animated, useTransition } from 'react-spring';
 
 function App() {
 
-    const { location } = useContext(__RouterContext);
+    //const { location } = useContext(__RouterContext);
+    const location = useLocation();
+    console.log(location);
     const transitions = useTransition(location, location => location.pathname, {
         from: { opacity: 0, transform: "translate(100%, 0%)" },
         enter: { opacity: 1, transform: "translate(0%, 0%)" },
