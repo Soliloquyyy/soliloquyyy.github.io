@@ -45,6 +45,14 @@ function kdSub(){
 					    We also need to implement find nearest neightbor. Which is just going down the tree checking the distance and finding the minimal.
 					    Here we use DFS with stack and toggle between x and y value to check the next point. and We would mark the lowest distanced one and return it.
 					</BodyWrapper>
+
+					<HeaderWrapper>
+						Closing
+					</HeaderWrapper>
+
+					<BodyWrapper>
+						Demonstration will be posted soon. Email me if you would like to see the code.
+					</BodyWrapper>
 				</ContentWrapper>
 			</ListWrapper>
 		</AbsoluteWrapper>

@@ -31,7 +31,12 @@ function actorSub(){
 						We construct an actor graph and for each node we have its name, movies and year. Then we can connect two nodes
 						if they have the same movies. the weight between two actor is determined with the lowest 1 + (2018 - year) since 
 						2018 is the max year for this data set. Then with the graph done it is a simple implementation of Dijkstra algorithm.
-						
+					</BodyWrapper>
+					<HeaderWrapper>
+						Closing
+					</HeaderWrapper>
+					<BodyWrapper>
+						Email me for code. Demonstration will be posted soon.
 					</BodyWrapper>
 				</ContentWrapper>
 			</ListWrapper>

@@ -8,7 +8,7 @@ const ContentWrapper = props => {
 		};
 
 		return (
-			<div className= "position-relative p-2 d-flex flex-column border-dark rounded h3" style = {flexboxStyle}> 
+			<div className= "position-relative p-2 d-flex flex-column border-dark rounded h1" style = {flexboxStyle}> 
 				{props.children}
 			</div>
 

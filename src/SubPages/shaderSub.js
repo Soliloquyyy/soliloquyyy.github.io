@@ -60,10 +60,13 @@ function shaderSub(){
 						https://soliloquy.s-ul.eu/9RKj1ETS
 					</BodyWrapper>
 
-					<BodyWrapper>
+					<div className= "position-relative p-4 d-flex rounded h5">
 						Post-Processing Shader<br/>
-						Here is a detailed PDF explaining this project: https://soliloquy.s-ul.eu/pso3qC29.
-					</BodyWrapper>
+						Here is a detailed PDF explaining this project: <br/>
+					</div>
+					<a href="https://soliloquy.s-ul.eu/pso3qC29" className="position-relative p-4 d-flex rounded h3">
+						https://soliloquy.s-ul.eu/pso3qC29
+					</a>
 
 				</ContentWrapper>
 			</ListWrapper>

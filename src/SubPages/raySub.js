@@ -56,15 +56,15 @@ function raySub(){
 					<HeaderWrapper>
 						PDF with demonstrations	
 					</HeaderWrapper>
-					<BodyWrapper>
-						https://soliloquy.s-ul.eu/UQhDqQ1L
+					<BodyWrapper >
+						<a href="https://soliloquy.s-ul.eu/UQhDqQ1L" target="_blank"> https://soliloquy.s-ul.eu/UQhDqQ1L </a>
 					</BodyWrapper>
 
 					<HeaderWrapper>
-						EXE
+						Code and EXE
 					</HeaderWrapper>
 					<BodyWrapper>
-						Code and EXE to be posted soon.
+						Please email me for the code and EXE to be posted soon.
 					</BodyWrapper>
 				</ContentWrapper>
 			</ListWrapper>

@@ -31,7 +31,12 @@ function boardSub(){
 					<BodyWrapper>
 						<img src = "https://soliloquy.s-ul.eu/wR4qufyu" class="img-fluid mx-auto d-block" width="50%"></img>
 						<img src = "https://soliloquy.s-ul.eu/aTl7Zne2" class="img-fluid mx-auto d-block" width="50%"></img>
-						
+					</BodyWrapper>
+					<HeaderWrapper>
+						Closing
+					</HeaderWrapper>
+					<BodyWrapper>
+						Email me if you would like to see the code. I will post jar file here soon.
 					</BodyWrapper>
 				</ContentWrapper>
 			</ListWrapper>

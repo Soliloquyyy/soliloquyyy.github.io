@@ -4,13 +4,14 @@ import './App.css';
 import TopBar from './topBar/topBar.js'
 
 //import react router
-import { Switch, Route, useLocation } from 'react-router-dom';
+import { Switch, Route, useLocation, BrowserRouter} from 'react-router-dom';
 
 //import pages
 import {
     Home,
     Photography,
-    Computer
+    Computer,
+    About
 } from './Pages'
 
 //import subpages
@@ -35,7 +36,6 @@ function App() {
 
     //const { location } = useContext(__RouterContext);
     const location = useLocation();
-    console.log(location);
     const transitions = useTransition(location, location => location.pathname, {
         from: { opacity: 0, transform: "translate(100%, 0%)" },
         enter: { opacity: 1, transform: "translate(0%, 0%)" },
@@ -50,10 +50,12 @@ function App() {
                 <main className="container-fluid">
                     {transitions.map(({ item,props,key }) => (
                       <animated.div key={key} style={props} className="position-relative">
+
                           <Switch location={item}>
                             <Route exact path="/" component={Home}/>
                             <Route exact path="/computer" component={Computer}/>
                             <Route exact path="/photography" component={Photography}/>
+                            <Route exact path = "/about" component={About}/>
                             <Route exact path="/computer/1" component={rgbSub}/>
                             <Route exact path="/computer/2" component={raySub}/>
                             <Route exact path="/computer/3" component={shaderSub}/>

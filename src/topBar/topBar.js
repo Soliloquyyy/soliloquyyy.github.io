@@ -23,14 +23,16 @@ function TopBar() {
             marginTop: -25
         },
     });
-    
+    const fSize = window.innerWidth <= 760 ? "50%" : "150%";
     const barSty = {
-        height: "5rem",
+        height: "3rem",
+        fontSize: fSize,
+        marginTop: "1rem",
         backgroundColor: '#282c34',
     };
 
     return (
-        <animated.ul className="nav justify-content-center position-relative" style={topBarAni, barSty}>
+        <animated.ul className="nav justify-content-center position-relative" style={barSty}>
   			<li>
                 <NavLink exact to="/" className="nav-item nav-link d-inline-block" activeClassName= "nav-item nav-link active d-inline-block">Home</NavLink>
                 <NavLink exact to="/computer" className="nav-item nav-link d-inline-block" activeClassName= "nav-item nav-link active d-inline-block">Computer</NavLink>

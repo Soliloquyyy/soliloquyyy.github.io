@@ -38,6 +38,12 @@ function dNcSub(){
 						a duplicate we just increment its occurences. Then we can predict the top ten completion by searching through the trie and for each child
 						in current node children we can find its top 10 autofill and push it to a vector and sort them all at the end and return the sorted top 10 most occured.
 					</BodyWrapper>
+					<HeaderWrapper>
+						Closing
+					</HeaderWrapper>
+					<BodyWrapper>
+						Email me for code. Demonstration will be posted soon.
+					</BodyWrapper>
 				</ContentWrapper>
 			</ListWrapper>
 		</AbsoluteWrapper>
